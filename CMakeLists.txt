@@ -36,7 +36,6 @@ target_include_directories(FreeRTOS PUBLIC
 # Link to pico_stdlib (gpio, time, etc. functions)
 target_link_libraries(${PROJECT_NAME} 
     pico_stdlib
-    hardware_gpio
     FreeRTOS
 )
 

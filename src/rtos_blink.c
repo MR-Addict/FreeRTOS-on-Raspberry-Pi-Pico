@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-#include "hardware/gpio.h"
 #include "pico/stdlib.h"
 
 #include "FreeRTOS.h"
@@ -8,20 +7,9 @@
 #include "task.h"
 
 const uint led_pin = 25;
-
 bool LED_Status = false;
 
-void Blink(void* parameter) {
-    while (true) {
-        LED_Status = !LED_Status;
-        if (LED_Status)
-            printf("LED ON!\n");
-        else
-            printf("LED OFF!\n");
-        gpio_put(led_pin, LED_Status);
-        vTaskDelay(1000);
-    }
-}
+void Blink(void* parameter);
 
 int main() {
     gpio_init(led_pin);
@@ -33,5 +21,17 @@ int main() {
     vTaskStartScheduler();
 
     while (true) {
+    }
+}
+
+void Blink(void* parameter) {
+    while (true) {
+        LED_Status = !LED_Status;
+        if (LED_Status)
+            printf("LED ON!\n");
+        else
+            printf("LED OFF!\n");
+        gpio_put(led_pin, LED_Status);
+        vTaskDelay(1000);
     }
 }
