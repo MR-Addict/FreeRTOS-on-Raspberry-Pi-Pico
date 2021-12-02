@@ -16,22 +16,22 @@ int main() {
     gpio_set_dir(led_pin, GPIO_OUT);
     stdio_init_all();
 
-    TaskHandle_t TaskHandle = NULL;
-    xTaskCreate(Blink, "Blink", 128, NULL, 1, &TaskHandle);
-    vTaskStartScheduler();
+    TaskHandle_t TaskHandle = NULL;                          // set task handle
+    xTaskCreate(Blink, "Blink", 128, NULL, 1, &TaskHandle);  // creat a task
+    vTaskStartScheduler();                                   // start task
 
     while (true) {
+        if (LED_Status)
+            printf("LED ON!\n");
+        else
+            printf("LED OFF!\n");
     }
 }
 
 void Blink(void* parameter) {
     while (true) {
         LED_Status = !LED_Status;
-        if (LED_Status)
-            printf("LED ON!\n");
-        else
-            printf("LED OFF!\n");
         gpio_put(led_pin, LED_Status);
-        vTaskDelay(1000);
+        vTaskDelay(1000);  // this would not block programe
     }
 }
