@@ -11,7 +11,8 @@ In this project, I implement **FreeRTOS** to run a blink sketch on Pico while Pi
     - **Install MinGW Manager**
     - **Download Pico SDK and Examples**
     - **Install GUN Arm Embedded Toolchain**
-    You can find more information about how to set up Pico C++ Toolchain on windows on [shawnhymel](https://shawnhymel.com/2096/how-to-set-up-raspberry-pi-pico-c-c-toolchain-on-windows-with-vs-code/) website.
+  
+You can find more information about how to set up Pico C++ Toolchain on windows on [shawnhymel](https://shawnhymel.com/2096/how-to-set-up-raspberry-pi-pico-c-c-toolchain-on-windows-with-vs-code/) website.
 
 - **Set up FreeRTOS Enviroment**
     - **Download FreeRTOS-Kernel**
