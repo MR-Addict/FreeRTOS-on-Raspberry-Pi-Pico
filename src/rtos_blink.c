@@ -26,6 +26,7 @@ int main() {
         else
             printf("LED OFF!\n");
     }
+    return 0;
 }
 
 void Blink(void* parameter) {
