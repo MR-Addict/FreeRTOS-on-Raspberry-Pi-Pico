@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\My files\programming\Pico\Code\freertos"
+CMAKE_SOURCE_DIR = "D:\My files\programming\Pico\Code\Learning\freertos"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\My files\programming\Pico\Code\freertos\build"
+CMAKE_BINARY_DIR = "D:\My files\programming\Pico\Code\Learning\freertos\build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/rtos_blink.dir/depend.make
@@ -71,21 +71,21 @@ include CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/src/rtos_blink.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/src/rtos_blink.c.obj: ../src/rtos_blink.c
 CMakeFiles/rtos_blink.dir/src/rtos_blink.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtos_blink.dir/src/rtos_blink.c.obj"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/src/rtos_blink.c.obj -MF CMakeFiles\rtos_blink.dir\src\rtos_blink.c.obj.d -o CMakeFiles\rtos_blink.dir\src\rtos_blink.c.obj -c "D:\My files\programming\Pico\Code\freertos\src\rtos_blink.c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/rtos_blink.dir/src/rtos_blink.c.obj"
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/src/rtos_blink.c.obj -MF CMakeFiles\rtos_blink.dir\src\rtos_blink.c.obj.d -o CMakeFiles\rtos_blink.dir\src\rtos_blink.c.obj -c "D:\My files\programming\Pico\Code\Learning\freertos\src\rtos_blink.c"
 
 CMakeFiles/rtos_blink.dir/src/rtos_blink.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/rtos_blink.dir/src/rtos_blink.c.i"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\My files\programming\Pico\Code\freertos\src\rtos_blink.c" > CMakeFiles\rtos_blink.dir\src\rtos_blink.c.i
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E "D:\My files\programming\Pico\Code\Learning\freertos\src\rtos_blink.c" > CMakeFiles\rtos_blink.dir\src\rtos_blink.c.i
 
 CMakeFiles/rtos_blink.dir/src/rtos_blink.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/rtos_blink.dir/src/rtos_blink.c.s"
-	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\My files\programming\Pico\Code\freertos\src\rtos_blink.c" -o CMakeFiles\rtos_blink.dir\src\rtos_blink.c.s
+	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S "D:\My files\programming\Pico\Code\Learning\freertos\src\rtos_blink.c" -o CMakeFiles\rtos_blink.dir\src\rtos_blink.c.s
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_stdlib\stdlib.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.i: cmake_force
@@ -99,7 +99,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdlib/stdlib.c.s
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_gpio\gpio.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.i: cmake_force
@@ -113,7 +113,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_gpio/gpio.c.s
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_claim\claim.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c.i: cmake_force
@@ -127,7 +127,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_claim/claim.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_platform\platform.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform.c.i: cmake_force
@@ -141,7 +141,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_platform/platform
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_sync\sync.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.i: cmake_force
@@ -155,7 +155,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_sync/sync.c.s
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_uart\uart.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.i: cmake_force
@@ -168,7 +168,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_uart/uart.c.s
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\hardware_divider\divider.S
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divider.S.i: cmake_force
@@ -182,7 +182,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_divider/divid
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.obj: C:/Pico/pico-sdk/src/common/pico_time/time.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_time\time.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_time\time.c.obj -c C:\Pico\pico-sdk\src\common\pico_time\time.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.i: cmake_force
@@ -196,7 +196,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_time/time.c.s: cmake_
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: C:/Pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_time\timeout_helper.c.obj -c C:\Pico\pico-sdk\src\common\pico_time\timeout_helper.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c.i: cmake_force
@@ -210,7 +210,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_time/timeout_helper.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_11) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_timer\timer.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c.i: cmake_force
@@ -224,7 +224,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_timer/timer.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj: C:/Pico/pico-sdk/src/common/pico_sync/sem.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_12) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_sync\sem.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_sync\sem.c.obj -c C:\Pico\pico-sdk\src\common\pico_sync\sem.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.i: cmake_force
@@ -238,7 +238,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/sem.c.s: cmake_f
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: C:/Pico/pico-sdk/src/common/pico_sync/lock_core.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_13) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_sync\lock_core.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_sync\lock_core.c.obj -c C:\Pico\pico-sdk\src\common\pico_sync\lock_core.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.i: cmake_force
@@ -252,7 +252,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/lock_core.c.s: c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj: C:/Pico/pico-sdk/src/common/pico_sync/mutex.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_14) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_sync\mutex.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_sync\mutex.c.obj -c C:\Pico\pico-sdk\src\common\pico_sync\mutex.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.i: cmake_force
@@ -266,7 +266,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/mutex.c.s: cmake
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: C:/Pico/pico-sdk/src/common/pico_sync/critical_section.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_15) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_sync\critical_section.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_sync\critical_section.c.obj -c C:\Pico\pico-sdk\src\common\pico_sync\critical_section.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section.c.i: cmake_force
@@ -280,7 +280,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_sync/critical_section
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj: C:/Pico/pico-sdk/src/common/pico_util/datetime.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_16) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_util\datetime.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_util\datetime.c.obj -c C:\Pico\pico-sdk\src\common\pico_util\datetime.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.i: cmake_force
@@ -294,7 +294,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/datetime.c.s: cm
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj: C:/Pico/pico-sdk/src/common/pico_util/pheap.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_17) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_util\pheap.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_util\pheap.c.obj -c C:\Pico\pico-sdk\src\common\pico_util\pheap.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.i: cmake_force
@@ -308,7 +308,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/pheap.c.s: cmake
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj: C:/Pico/pico-sdk/src/common/pico_util/queue.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_18) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_util\queue.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\common\pico_util\queue.c.obj -c C:\Pico\pico-sdk\src\common\pico_util\queue.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.i: cmake_force
@@ -322,7 +322,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/common/pico_util/queue.c.s: cmake
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_19) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_runtime\runtime.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c.i: cmake_force
@@ -336,7 +336,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_runtime/runtime.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_20) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_clocks\clocks.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks.c.i: cmake_force
@@ -350,7 +350,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_clocks/clocks
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_21) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_irq\irq.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.i: cmake_force
@@ -363,7 +363,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq.c.s: 
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_22) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\hardware_irq\irq_handler_chain.S
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handler_chain.S.i: cmake_force
@@ -377,7 +377,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_irq/irq_handl
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_23) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_pll\pll.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.i: cmake_force
@@ -391,7 +391,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.s: 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_24) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_vreg\vreg.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.i: cmake_force
@@ -405,7 +405,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_vreg/vreg.c.s
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_25) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_watchdog\watchdog.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watchdog.c.i: cmake_force
@@ -419,7 +419,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_watchdog/watc
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_26) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_xosc\xosc.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.i: cmake_force
@@ -433,7 +433,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_xosc/xosc.c.s
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_27) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_printf\printf.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.i: cmake_force
@@ -446,7 +446,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.s
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_28) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_bit_ops\bit_ops_aeabi.S
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.i: cmake_force
@@ -460,7 +460,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bit_ops/bit_ops_a
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_29) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_bootrom\bootrom.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c.i: cmake_force
@@ -473,7 +473,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_bootrom/bootrom.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_30) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_divider\divider.S
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S.i: cmake_force
@@ -486,7 +486,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_divider/divider.S
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_31) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_double\double_aeabi.S
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aeabi.S.i: cmake_force
@@ -500,7 +500,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_aea
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_32) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_double\double_init_rom.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_init_rom.c.i: cmake_force
@@ -514,7 +514,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_ini
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_33) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_double\double_math.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_math.c.i: cmake_force
@@ -527,7 +527,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_mat
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_34) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_double\double_v1_rom_shim.S
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_rom_shim.S.i: cmake_force
@@ -540,7 +540,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_double/double_v1_
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_35) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_int64_ops\pico_int64_ops_aeabi.S
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.i: cmake_force
@@ -553,7 +553,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_int64_ops/pico_in
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_36) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_float\float_aeabi.S
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi.S.i: cmake_force
@@ -567,7 +567,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_aeabi
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_37) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_float\float_init_rom.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_rom.c.i: cmake_force
@@ -581,7 +581,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_init_
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_38) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_float\float_math.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.c.i: cmake_force
@@ -594,7 +594,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_math.
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_39) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_float\float_v1_rom_shim.S
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_rom_shim.S.i: cmake_force
@@ -608,7 +608,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_float/float_v1_ro
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_40) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_malloc\pico_malloc.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_malloc.c.i: cmake_force
@@ -621,7 +621,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_malloc/pico_mallo
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_41) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_mem_ops\mem_ops_aeabi.S
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.i: cmake_force
@@ -634,7 +634,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_mem_ops/mem_ops_a
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj: C:/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_42) "Building ASM object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(ASM_DEFINES) $(ASM_INCLUDES) $(ASM_FLAGS) -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S.obj   -c C:\Pico\pico-sdk\src\rp2_common\pico_standard_link\crt0.S
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt0.S.i: cmake_force
@@ -648,7 +648,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/crt
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: C:/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR10B2~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_standard_link\new_delete.cpp
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new_delete.cpp.i: cmake_force
@@ -662,7 +662,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/new
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_44) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_standard_link\binary_info.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/binary_info.c.i: cmake_force
@@ -676,7 +676,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_standard_link/bin
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_45) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_stdio\stdio.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.i: cmake_force
@@ -690,7 +690,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio/stdio.c.s: 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_46) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\reset_interface.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_interface.c.i: cmake_force
@@ -704,7 +704,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/reset_i
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_47) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb.c.i: cmake_force
@@ -718,7 +718,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_u
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_48) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_stdio_usb\stdio_usb_descriptors.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_usb_descriptors.c.i: cmake_force
@@ -732,7 +732,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_stdio_usb/stdio_u
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_49) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\dcd_rp2040.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/dcd_rp2040.c.i: cmake_force
@@ -746,7 +746,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_50) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\portable\raspberrypi\rp2040\rp2040_usb.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/rp2040/rp2040_usb.c.i: cmake_force
@@ -760,7 +760,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/portable/raspberrypi/
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_51) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\device\usbd.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.i: cmake_force
@@ -774,7 +774,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd.c.s: cmak
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_52) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\device\usbd_control.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c.i: cmake_force
@@ -788,7 +788,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/device/usbd_control.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_53) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\class\audio\audio_device.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_device.c.i: cmake_force
@@ -802,7 +802,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/audio/audio_dev
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_54) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\class\cdc\cdc_device.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.c.i: cmake_force
@@ -816,7 +816,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/cdc/cdc_device.
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_55) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_device.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.c.i: cmake_force
@@ -830,7 +830,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_device.
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_56) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\class\dfu\dfu_rt_device.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_device.c.i: cmake_force
@@ -844,7 +844,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/dfu/dfu_rt_devi
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_57) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\class\hid\hid_device.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.c.i: cmake_force
@@ -858,7 +858,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/hid/hid_device.
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_58) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\class\midi\midi_device.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_device.c.i: cmake_force
@@ -872,7 +872,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/midi/midi_devic
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_59) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\class\msc\msc_device.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.c.i: cmake_force
@@ -886,7 +886,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/msc/msc_device.
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_60) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\class\net\ecm_rndis_device.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_device.c.i: cmake_force
@@ -900,7 +900,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ecm_rndis_d
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_61) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\class\net\ncm_device.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.c.i: cmake_force
@@ -914,7 +914,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/net/ncm_device.
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_62) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\class\usbtmc\usbtmc_device.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_device.c.i: cmake_force
@@ -928,7 +928,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/usbtmc/usbtmc_d
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_63) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\class\vendor\vendor_device.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_device.c.i: cmake_force
@@ -942,7 +942,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/vendor/vendor_d
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_64) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\class\video\video_device.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_device.c.i: cmake_force
@@ -956,7 +956,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/class/video/video_dev
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/tusb.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_65) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\tusb.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\tusb.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.i: cmake_force
@@ -970,7 +970,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/tusb.c.s: cmake_force
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: C:/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_66) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c.obj -c C:\Pico\pico-sdk\lib\tinyusb\src\common\tusb_fifo.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.i: cmake_force
@@ -984,7 +984,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/lib/tinyusb/src/common/tusb_fifo.c.s:
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_67) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_fix\rp2040_usb_device_enumeration\rp2040_usb_device_enumeration.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_device_enumeration/rp2040_usb_device_enumeration.c.i: cmake_force
@@ -998,7 +998,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_fix/rp2040_usb_de
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: C:/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_68) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c.obj -c C:\Pico\pico-sdk\src\rp2_common\pico_unique_id\unique_id.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_id.c.i: cmake_force
@@ -1012,7 +1012,7 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_unique_id/unique_
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/rtos_blink.dir/flags.make
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: C:/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj: CMakeFiles/rtos_blink.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_69) "Building C object CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.obj -MF CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj.d -o CMakeFiles\rtos_blink.dir\C_\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c.obj -c C:\Pico\pico-sdk\src\rp2_common\hardware_flash\flash.c
 
 CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_flash/flash.c.i: cmake_force
@@ -1172,13 +1172,13 @@ rtos_blink.elf: libFreeRTOS.a
 rtos_blink.elf: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 rtos_blink.elf: CMakeFiles/rtos_blink.dir/objects1.rsp
 rtos_blink.elf: CMakeFiles/rtos_blink.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable rtos_blink.elf"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_70) "Linking CXX executable rtos_blink.elf"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\rtos_blink.dir\link.txt --verbose=$(VERBOSE)
-	"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Oihex "D:/My files/programming/Pico/Code/freertos/build/rtos_blink.elf" rtos_blink.hex
-	"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Obinary "D:/My files/programming/Pico/Code/freertos/build/rtos_blink.elf" rtos_blink.bin
-	"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objdump.exe" -h "D:/My files/programming/Pico/Code/freertos/build/rtos_blink.elf" >rtos_blink.dis
-	"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objdump.exe" -d "D:/My files/programming/Pico/Code/freertos/build/rtos_blink.elf" >>rtos_blink.dis
-	elf2uf2\elf2uf2 "D:/My files/programming/Pico/Code/freertos/build/rtos_blink.elf" rtos_blink.uf2
+	"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Oihex "D:/My files/programming/Pico/Code/Learning/freertos/build/rtos_blink.elf" rtos_blink.hex
+	"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Obinary "D:/My files/programming/Pico/Code/Learning/freertos/build/rtos_blink.elf" rtos_blink.bin
+	"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objdump.exe" -h "D:/My files/programming/Pico/Code/Learning/freertos/build/rtos_blink.elf" >rtos_blink.dis
+	"C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objdump.exe" -d "D:/My files/programming/Pico/Code/Learning/freertos/build/rtos_blink.elf" >>rtos_blink.dis
+	elf2uf2\elf2uf2 "D:/My files/programming/Pico/Code/Learning/freertos/build/rtos_blink.elf" rtos_blink.uf2
 
 # Rule to build all files generated by this target.
 CMakeFiles/rtos_blink.dir/build: rtos_blink.elf
@@ -1189,6 +1189,6 @@ CMakeFiles/rtos_blink.dir/clean:
 .PHONY : CMakeFiles/rtos_blink.dir/clean
 
 CMakeFiles/rtos_blink.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\My files\programming\Pico\Code\freertos" "D:\My files\programming\Pico\Code\freertos" "D:\My files\programming\Pico\Code\freertos\build" "D:\My files\programming\Pico\Code\freertos\build" "D:\My files\programming\Pico\Code\freertos\build\CMakeFiles\rtos_blink.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\My files\programming\Pico\Code\Learning\freertos" "D:\My files\programming\Pico\Code\Learning\freertos" "D:\My files\programming\Pico\Code\Learning\freertos\build" "D:\My files\programming\Pico\Code\Learning\freertos\build" "D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles\rtos_blink.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/rtos_blink.dir/depend
 

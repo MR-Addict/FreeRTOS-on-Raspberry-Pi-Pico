@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\My files\programming\Pico\Code\freertos"
+CMAKE_SOURCE_DIR = "D:\My files\programming\Pico\Code\Learning\freertos"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\My files\programming\Pico\Code\freertos\build"
+CMAKE_BINARY_DIR = "D:\My files\programming\Pico\Code\Learning\freertos\build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/FreeRTOS.dir/depend.make
@@ -71,7 +71,7 @@ include CMakeFiles/FreeRTOS.dir/flags.make
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/tasks.c.obj: CMakeFiles/FreeRTOS.dir/flags.make
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/tasks.c.obj: C:/FreeRTOS-Kernel/tasks.c
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/tasks.c.obj: CMakeFiles/FreeRTOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/tasks.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/tasks.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/tasks.c.obj -MF CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\tasks.c.obj.d -o CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\tasks.c.obj -c C:\FreeRTOS-Kernel\tasks.c
 
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/tasks.c.i: cmake_force
@@ -85,7 +85,7 @@ CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/tasks.c.s: cmake_force
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/queue.c.obj: CMakeFiles/FreeRTOS.dir/flags.make
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/queue.c.obj: C:/FreeRTOS-Kernel/queue.c
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/queue.c.obj: CMakeFiles/FreeRTOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/queue.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/queue.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/queue.c.obj -MF CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\queue.c.obj.d -o CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\queue.c.obj -c C:\FreeRTOS-Kernel\queue.c
 
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/queue.c.i: cmake_force
@@ -99,7 +99,7 @@ CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/queue.c.s: cmake_force
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/list.c.obj: CMakeFiles/FreeRTOS.dir/flags.make
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/list.c.obj: C:/FreeRTOS-Kernel/list.c
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/list.c.obj: CMakeFiles/FreeRTOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/list.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/list.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/list.c.obj -MF CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\list.c.obj.d -o CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\list.c.obj -c C:\FreeRTOS-Kernel\list.c
 
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/list.c.i: cmake_force
@@ -113,7 +113,7 @@ CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/list.c.s: cmake_force
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj: CMakeFiles/FreeRTOS.dir/flags.make
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj: C:/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj: CMakeFiles/FreeRTOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.obj -MF CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.obj.d -o CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c.obj -c C:\FreeRTOS-Kernel\portable\GCC\ARM_CM0\port.c
 
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.i: cmake_force
@@ -127,7 +127,7 @@ CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/portable/GCC/ARM_CM0/port.c.s: cmake_
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/FreeRTOS.dir/flags.make
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: C:/FreeRTOS-Kernel/portable/MemMang/heap_4.c
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj: CMakeFiles/FreeRTOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/portable/MemMang/heap_4.c.obj -MF CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\portable\MemMang\heap_4.c.obj.d -o CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\portable\MemMang\heap_4.c.obj -c C:\FreeRTOS-Kernel\portable\MemMang\heap_4.c
 
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/portable/MemMang/heap_4.c.i: cmake_force
@@ -141,7 +141,7 @@ CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/portable/MemMang/heap_4.c.s: cmake_fo
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/timers.c.obj: CMakeFiles/FreeRTOS.dir/flags.make
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/timers.c.obj: C:/FreeRTOS-Kernel/timers.c
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/timers.c.obj: CMakeFiles/FreeRTOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/timers.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/timers.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/timers.c.obj -MF CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\timers.c.obj.d -o CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\timers.c.obj -c C:\FreeRTOS-Kernel\timers.c
 
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/timers.c.i: cmake_force
@@ -155,7 +155,7 @@ CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/timers.c.s: cmake_force
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/event_groups.c.obj: CMakeFiles/FreeRTOS.dir/flags.make
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/event_groups.c.obj: C:/FreeRTOS-Kernel/event_groups.c
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/event_groups.c.obj: CMakeFiles/FreeRTOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/event_groups.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/event_groups.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/event_groups.c.obj -MF CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\event_groups.c.obj.d -o CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\event_groups.c.obj -c C:\FreeRTOS-Kernel\event_groups.c
 
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/event_groups.c.i: cmake_force
@@ -169,7 +169,7 @@ CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/event_groups.c.s: cmake_force
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/stream_buffer.c.obj: CMakeFiles/FreeRTOS.dir/flags.make
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/stream_buffer.c.obj: C:/FreeRTOS-Kernel/stream_buffer.c
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/stream_buffer.c.obj: CMakeFiles/FreeRTOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/stream_buffer.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/stream_buffer.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/stream_buffer.c.obj -MF CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\stream_buffer.c.obj.d -o CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\stream_buffer.c.obj -c C:\FreeRTOS-Kernel\stream_buffer.c
 
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/stream_buffer.c.i: cmake_force
@@ -183,7 +183,7 @@ CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/stream_buffer.c.s: cmake_force
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/croutine.c.obj: CMakeFiles/FreeRTOS.dir/flags.make
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/croutine.c.obj: C:/FreeRTOS-Kernel/croutine.c
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/croutine.c.obj: CMakeFiles/FreeRTOS.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/croutine.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/croutine.c.obj"
 	C:\PROGRA~2\GNUARM~1\102021~1.10\bin\AR19DD~1.EXE $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/croutine.c.obj -MF CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\croutine.c.obj.d -o CMakeFiles\FreeRTOS.dir\C_\FreeRTOS-Kernel\croutine.c.obj -c C:\FreeRTOS-Kernel\croutine.c
 
 CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/croutine.c.i: cmake_force
@@ -220,7 +220,7 @@ libFreeRTOS.a: CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/stream_buffer.c.obj
 libFreeRTOS.a: CMakeFiles/FreeRTOS.dir/C_/FreeRTOS-Kernel/croutine.c.obj
 libFreeRTOS.a: CMakeFiles/FreeRTOS.dir/build.make
 libFreeRTOS.a: CMakeFiles/FreeRTOS.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking C static library libFreeRTOS.a"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_10) "Linking C static library libFreeRTOS.a"
 	$(CMAKE_COMMAND) -P CMakeFiles\FreeRTOS.dir\cmake_clean_target.cmake
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\FreeRTOS.dir\link.txt --verbose=$(VERBOSE)
 
@@ -233,6 +233,6 @@ CMakeFiles/FreeRTOS.dir/clean:
 .PHONY : CMakeFiles/FreeRTOS.dir/clean
 
 CMakeFiles/FreeRTOS.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\My files\programming\Pico\Code\freertos" "D:\My files\programming\Pico\Code\freertos" "D:\My files\programming\Pico\Code\freertos\build" "D:\My files\programming\Pico\Code\freertos\build" "D:\My files\programming\Pico\Code\freertos\build\CMakeFiles\FreeRTOS.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\My files\programming\Pico\Code\Learning\freertos" "D:\My files\programming\Pico\Code\Learning\freertos" "D:\My files\programming\Pico\Code\Learning\freertos\build" "D:\My files\programming\Pico\Code\Learning\freertos\build" "D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles\FreeRTOS.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/FreeRTOS.dir/depend
 

@@ -1,5 +1,5 @@
-D:/My files/programming/Pico/Code/freertos/build/elf2uf2/CMakeFiles/elf2uf2.dir
-D:/My files/programming/Pico/Code/freertos/build/elf2uf2/CMakeFiles/edit_cache.dir
-D:/My files/programming/Pico/Code/freertos/build/elf2uf2/CMakeFiles/rebuild_cache.dir
-D:/My files/programming/Pico/Code/freertos/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
-D:/My files/programming/Pico/Code/freertos/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir
+D:/My files/programming/Pico/Code/Learning/freertos/build/elf2uf2/CMakeFiles/elf2uf2.dir
+D:/My files/programming/Pico/Code/Learning/freertos/build/elf2uf2/CMakeFiles/edit_cache.dir
+D:/My files/programming/Pico/Code/Learning/freertos/build/elf2uf2/CMakeFiles/rebuild_cache.dir
+D:/My files/programming/Pico/Code/Learning/freertos/build/elf2uf2/boot_uf2_headers/CMakeFiles/edit_cache.dir
+D:/My files/programming/Pico/Code/Learning/freertos/build/elf2uf2/boot_uf2_headers/CMakeFiles/rebuild_cache.dir

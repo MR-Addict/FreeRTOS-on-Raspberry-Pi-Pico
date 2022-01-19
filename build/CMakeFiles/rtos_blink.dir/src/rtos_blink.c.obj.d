@@ -1,5 +1,5 @@
 CMakeFiles/rtos_blink.dir/src/rtos_blink.c.obj: \
- D:\My\ files\programming\Pico\Code\freertos\src\rtos_blink.c \
+ D:\My\ files\programming\Pico\Code\Learning\freertos\src\rtos_blink.c \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\stdio.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\_ansi.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\newlib.h \
@@ -38,9 +38,9 @@ CMakeFiles/rtos_blink.dir/src/rtos_blink.c.obj: \
  c:\progra~2\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stdint.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\stdint.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
- D:\My\ files\programming\Pico\Code\freertos\build\generated\pico_base/pico/version.h \
+ D:\My\ files\programming\Pico\Code\Learning\freertos\build\generated\pico_base/pico/version.h \
  C:\Pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- D:\My\ files\programming\Pico\Code\freertos\build\generated\pico_base/pico/config_autogen.h \
+ D:\My\ files\programming\Pico\Code\Learning\freertos\build\generated\pico_base/pico/config_autogen.h \
  C:/Pico/pico-sdk/src/boards/include/boards/pico.h \
  C:/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  C:\Pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \

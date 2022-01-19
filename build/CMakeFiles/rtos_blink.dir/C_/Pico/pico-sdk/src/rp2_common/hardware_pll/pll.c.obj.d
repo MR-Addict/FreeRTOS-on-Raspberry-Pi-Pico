@@ -18,9 +18,9 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/hardware_pll/pll.c.obj
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_intsup.h \
  c:\progra~2\gnuarm~1\102021~1.10\arm-none-eabi\include\sys\_stdint.h \
  c:\progra~2\gnuarm~1\102021~1.10\lib\gcc\arm-none-eabi\10.3.1\include\stddef.h \
- D:\My\ files\programming\Pico\Code\freertos\build\generated\pico_base/pico/version.h \
+ D:\My\ files\programming\Pico\Code\Learning\freertos\build\generated\pico_base/pico/version.h \
  C:\Pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- D:\My\ files\programming\Pico\Code\freertos\build\generated\pico_base/pico/config_autogen.h \
+ D:\My\ files\programming\Pico\Code\Learning\freertos\build\generated\pico_base/pico/config_autogen.h \
  C:/Pico/pico-sdk/src/boards/include/boards/pico.h \
  C:/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  C:\Pico\pico-sdk\src\rp2_common\pico_platform\include/pico/platform.h \

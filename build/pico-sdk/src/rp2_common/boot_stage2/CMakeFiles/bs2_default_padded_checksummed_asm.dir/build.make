@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "D:\My files\programming\Pico\Code\freertos"
+CMAKE_SOURCE_DIR = "D:\My files\programming\Pico\Code\Learning\freertos"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "D:\My files\programming\Pico\Code\freertos\build"
+CMAKE_BINARY_DIR = "D:\My files\programming\Pico\Code\Learning\freertos\build"
 
 # Utility rule file for bs2_default_padded_checksummed_asm.
 
@@ -68,12 +68,12 @@ include pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checks
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
-	cd /d "D:\My files\programming\Pico\Code\freertos\build\pico-sdk\src\rp2_common\boot_stage2" && "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\python3.9.exe" C:/Pico/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff "D:/My files/programming/Pico/Code/freertos/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin" "D:/My files/programming/Pico/Code/freertos/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Generating bs2_default_padded_checksummed.S"
+	cd /d "D:\My files\programming\Pico\Code\Learning\freertos\build\pico-sdk\src\rp2_common\boot_stage2" && "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.9_3.9.2544.0_x64__qbz5n2kfra8p0\python3.9.exe" C:/Pico/pico-sdk/src/rp2_common/boot_stage2/pad_checksum -s 0xffffffff "D:/My files/programming/Pico/Code/Learning/freertos/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin" "D:/My files/programming/Pico/Code/Learning/freertos/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default_padded_checksummed.S"
 
 pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin: pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\My files\programming\Pico\Code\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
-	cd /d "D:\My files\programming\Pico\Code\freertos\build\pico-sdk\src\rp2_common\boot_stage2" && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Obinary "D:/My files/programming/Pico/Code/freertos/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf" "D:/My files/programming/Pico/Code/freertos/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="D:\My files\programming\Pico\Code\Learning\freertos\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Generating bs2_default.bin"
+	cd /d "D:\My files\programming\Pico\Code\Learning\freertos\build\pico-sdk\src\rp2_common\boot_stage2" && "C:\Program Files (x86)\GNU Arm Embedded Toolchain\10 2021.10\bin\arm-none-eabi-objcopy.exe" -Obinary "D:/My files/programming/Pico/Code/Learning/freertos/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.elf" "D:/My files/programming/Pico/Code/Learning/freertos/build/pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin"
 
 bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm
 bs2_default_padded_checksummed_asm: pico-sdk/src/rp2_common/boot_stage2/bs2_default.bin
@@ -86,10 +86,10 @@ pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_as
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/build
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean:
-	cd /d "D:\My files\programming\Pico\Code\freertos\build\pico-sdk\src\rp2_common\boot_stage2" && $(CMAKE_COMMAND) -P CMakeFiles\bs2_default_padded_checksummed_asm.dir\cmake_clean.cmake
+	cd /d "D:\My files\programming\Pico\Code\Learning\freertos\build\pico-sdk\src\rp2_common\boot_stage2" && $(CMAKE_COMMAND) -P CMakeFiles\bs2_default_padded_checksummed_asm.dir\cmake_clean.cmake
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/clean
 
 pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\My files\programming\Pico\Code\freertos" C:\Pico\pico-sdk\src\rp2_common\boot_stage2 "D:\My files\programming\Pico\Code\freertos\build" "D:\My files\programming\Pico\Code\freertos\build\pico-sdk\src\rp2_common\boot_stage2" "D:\My files\programming\Pico\Code\freertos\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\DependInfo.cmake" --color=$(COLOR)
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "D:\My files\programming\Pico\Code\Learning\freertos" C:\Pico\pico-sdk\src\rp2_common\boot_stage2 "D:\My files\programming\Pico\Code\Learning\freertos\build" "D:\My files\programming\Pico\Code\Learning\freertos\build\pico-sdk\src\rp2_common\boot_stage2" "D:\My files\programming\Pico\Code\Learning\freertos\build\pico-sdk\src\rp2_common\boot_stage2\CMakeFiles\bs2_default_padded_checksummed_asm.dir\DependInfo.cmake" --color=$(COLOR)
 .PHONY : pico-sdk/src/rp2_common/boot_stage2/CMakeFiles/bs2_default_padded_checksummed_asm.dir/depend
 

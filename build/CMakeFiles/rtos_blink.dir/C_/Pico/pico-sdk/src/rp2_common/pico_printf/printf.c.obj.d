@@ -41,9 +41,9 @@ CMakeFiles/rtos_blink.dir/C_/Pico/pico-sdk/src/rp2_common/pico_printf/printf.c.o
  C:\Pico\pico-sdk\src\rp2_common\pico_printf\include/pico/printf.h \
  C:\Pico\pico-sdk\src\common\pico_base\include/pico.h \
  C:\Pico\pico-sdk\src\common\pico_base\include/pico/types.h \
- D:\My\ files\programming\Pico\Code\freertos\build\generated\pico_base/pico/version.h \
+ D:\My\ files\programming\Pico\Code\Learning\freertos\build\generated\pico_base/pico/version.h \
  C:\Pico\pico-sdk\src\common\pico_base\include/pico/config.h \
- D:\My\ files\programming\Pico\Code\freertos\build\generated\pico_base/pico/config_autogen.h \
+ D:\My\ files\programming\Pico\Code\Learning\freertos\build\generated\pico_base/pico/config_autogen.h \
  C:/Pico/pico-sdk/src/boards/include/boards/pico.h \
  C:/Pico/pico-sdk/src/rp2_common/cmsis/include/cmsis/rename_exceptions.h \
  C:\Pico\pico-sdk\src\common\pico_base\include/pico/error.h \
